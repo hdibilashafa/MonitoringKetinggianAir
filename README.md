@@ -38,7 +38,7 @@ tinggi_air (cm) = tinggi_tangki − jarak
 ```
 
 ### Parameter
-
+![Tank](images/tank.jpeg)
 | Parameter | Nilai | Keterangan |
 |---|---|---|
 | `tinggi_tangki` | 53 cm | Jarak sensor ke dasar tangki |
@@ -69,7 +69,7 @@ Sensor 2 hanya membaca satu kali per siklus tanpa filter, sebagai pembanding.
 ---
 
 ## Perangkat Keras
-
+![Tank](images/rancangan.jpeg)
 - ESP32 Dev Module
 - 2 × sensor ultrasonik waterproof JSN-SR04T
 - Kabel jumper dan sumber daya (USB / adaptor 5V)
@@ -131,7 +131,8 @@ Kolom pada file Excel:
 |---|---|---|---|---|
 
 ---
-
+## Visualisasi Data
+![Tank](images/grafik.jpeg)
 ## Struktur Project
 
 ```
